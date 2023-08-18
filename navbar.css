@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Istok+Web&family=Poppins:wght@300&display=swap");
+
+.nav-right {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin-left: 58%;
+  justify-content: center;
+}
+.nav-right a {
+  margin-left: 20px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: bold;
+}
+#navbar a {
+  margin: 10px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: bold;
+}
+.w3-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.w3-container .imgg img {
+  width: 200px;
+  height: 200px;
+  margin-left: 130%;
+  margin-top: -60%;
+}
+
+.w3-container .center {
+  align-items: center;
+  position: absolute;
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.w3-container .below {
+  position: absolute;
+  font-family: "Istok Web", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  transform: translate3d(120px, 60px, 0);
+  font-weight: bold;
+}
+.w3-container .welcome {
+  position: absolute;
+  font-family: "Istok Web", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  transform: translate3d(-130px, -60px, 0);
+}
+.w3-container h5 {
+  background-color: aqua;
+  margin-left: 10%;
+}
+#footer {
+  background-color: rgb(255, 255, 255);
+  margin-top: 0px;
+  max-height: 300px;
+  display: flex;
+}
+.w3-container h2 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Istok Web", sans-serif;
+  margin-bottom: 0;
+  margin-top: 6.25rem;
+  margin-top: 80px;
+  display: flex;
+  width: 700px;
+}
+.w3-container .services {
+  text-decoration: none;
+  padding-top: 0.75rem; /* 12px / 16px = 0.75rem */
+  padding-bottom: 0.75rem; /* 12px / 16px = 0.75rem */
+  padding-left: 5rem; /* 80px / 16px = 5rem */
+  padding-right: 5rem; /* 80px / 16px = 5rem */
+  border-radius: 1.25rem; /* 20px / 16px = 1.25rem */
+
+  background-color: rgba(56, 62, 65, 1);
+  position: relative;
+  color: white;
+  font-family: "Istok Web", sans-serif;
+  font-weight: bold;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.w3-container .services:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+  border-color: black;
+  border-radius: 0.125rem; /* 2px / 16px = 0.125rem */
+  border-width: 0.125rem; /* 2px / 16px = 0.125rem */
+  border: 0.125rem solid black; /* 2px / 16px = 0.125rem */
+}
+#explore {
+  font-family: "Istok Web", sans-serif;
+  display: flex;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: -180px;
+}
+
+#h1-footer {
+  justify-content: center;
+  text-align: center;
+  font-size: 15px; /* 14px / 16px = 0.875rem */
+  font-weight: bold;
+  font-family: "Istok Web", sans-serif;
+  margin-top: 40px;
+}
+#footer-text {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Assuming 20% of the parent container's width is equivalent to 1.25rem */
+  margin-right: 1.4375rem; /* Assuming 23% of the parent container's width is equivalent to 1.4375rem */
+}
+#footer-ul {
+  text-align: center;
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translate3d(-740px, 40px, 0px);
+  width: 800px;
+}
+ul li {
+  display: inline;
+  margin-right: 80px;
+}
+#footer-ul img {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-bottom: -0.1875rem;
+  max-width: 12.5rem;
+}
+#blue {
+  background-color: rgb(255, 255, 255);
+  margin-top: 0px;
+  display: flex;
+}
+@media (max-width: 428px) {
+  .w3-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .w3-container .imgg img {
+    width: 80px;
+    height: 80px;
+    margin-left: 120%;
+    margin-top: -50px;
+  }
+  .w3-container .center {
+    align-items: center;
+    position: absolute;
+    font-size: 40px;
+    font-family: "jost", sans-serif;
+  }
+  .w3-container .below {
+    position: absolute;
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    transform: translate3d(50px, 30px, 0);
+  }
+  .w3-container .welcome {
+    position: absolute;
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translate3d(-40px, -30px, 0);
+  }
+  .w3-container h5 {
+    background-color: aqua;
+  }
+  #footer {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .w3-container h2 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Istok Web", sans-serif;
+    margin-bottom: 0;
+    margin-top: 6.25rem;
+    margin-top: 80px;
+    display: flex;
+    width: 300px;
+  }
+  .w3-container .services {
+    text-decoration: none;
+    padding-top: 0.75rem; /* 12px / 16px = 0.75rem */
+    padding-bottom: 0.75rem; /* 12px / 16px = 0.75rem */
+    padding-left: 5rem; /* 80px / 16px = 5rem */
+    padding-right: 5rem; /* 80px / 16px = 5rem */
+    border-radius: 1.25rem; /* 20px / 16px = 1.25rem */
+
+    background-color: rgba(56, 62, 65, 1);
+    position: relative;
+    color: white;
+    font-family: "Istok Web", sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 80px;
+  }
+  .w3-container .services:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+    border-color: black;
+    border-radius: 0.125rem; /* 2px / 16px = 0.125rem */
+    border-width: 0.125rem; /* 2px / 16px = 0.125rem */
+    border: 0.125rem solid black; /* 2px / 16px = 0.125rem */
+  }
+  #explore {
+    font-family: "Istok Web", sans-serif;
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -70px;
+    margin-left: 0px;
+  }
+  #h1-footer {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px; /* 14px / 16px = 0.875rem */
+    font-weight: bold;
+    font-family: "Istok Web", sans-serif;
+    margin-top: 90px;
+  }
+  #footer-text {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+  }
+  #footer-ul {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-left: 120px;
+  }
+  ul li {
+    display: inline;
+    margin: 0;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  #footer-ul img {
+    width: 1.25rem;
+    height: 1.25rem;
+    max-width: 12.5rem;
+    display: inline;
+  }
+  #blue {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span {
+    display: none;
+  }
+}
