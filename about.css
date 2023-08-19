@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Istok+Web&family=Poppins:wght@300&display=swap");
+
+.nav-right {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin-left: 58%;
+  justify-content: center;
+}
+.nav-right a {
+  margin-left: 20px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: bold;
+}
+#navbar a {
+  margin: 10px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: bold;
+}
+.w3-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+#content {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+#content h2 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#content h3 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+}
+#content h4 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#learn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10px;
+  line-height: 80px;
+}
+#learn h1 {
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Istok Web", sans-serif;
+  font-weight: bolder;
+}
+
+#bulb {
+  margin-top: 0;
+
+  display: block;
+  content: "";
+  width: 400px;
+  height: 90px;
+  background-color: rgba(56, 62, 65, 1);
+  border-radius: 20px;
+}
+#dashline {
+  width: 130px;
+  height: 5px;
+  position: absolute;
+  transform: translate3d(130px, 45px, 0);
+  color: white;
+}
+#dashline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 5px;
+  border-top: 5px dashed white;
+}
+#four {
+  font-family: "Istok Web", sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  font-size: 40px;
+  padding-left: 10px;
+  margin-left: 75px;
+  text-align: center;
+  transform: translate3d(200px, -9px, 0);
+  color: white;
+  margin-top: 25px;
+}
+#footer-content {
+  padding-left: 10px;
+  margin-left: 75px;
+  text-align: center;
+  font-family: "Istok Web", sans-serif;
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: lighter;
+}
+#proimg {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+#footer {
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#footer h2 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 428px) {
+}
