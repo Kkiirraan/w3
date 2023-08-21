@@ -148,8 +148,15 @@ ul li {
   margin-top: 0px;
   display: flex;
 }
-@media (max-width: 428px) {
+@media only screen and (max-width: 428px) {
+  html,
+  body {
+    max-width: 414;
+    overflow-x: hidden;
+  }
   .w3-container {
+    margin-right: 0px;
+
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -183,9 +190,11 @@ ul li {
     transform: translate3d(-40px, -30px, 0);
   }
   .w3-container h5 {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
   }
   #footer {
+    margin-right: 0px;
+
     background-color: rgb(255, 255, 255);
     margin-top: 0px;
     max-height: 300px;
@@ -263,6 +272,7 @@ ul li {
     margin: 0;
     margin-left: 80px;
     margin-top: 10px;
+    margin-right: 0px;
     background-color: rgb(255, 255, 255);
   }
   #footer-ul img {
