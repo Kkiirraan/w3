@@ -201,15 +201,11 @@ textarea:focus::placeholder {
 
   .map {
     margin-top: 2%;
-    width: max-content;
-    height: fit-content;
-    margin-left: 20%;
   }
   iframe {
     margin-left: 0px;
-    max-width: 100%;
-    width: 80%;
-    height: 400px;
+    width: 70%;
+    height: 300px;
   }
   .left {
     margin-right: 0px;
