@@ -208,7 +208,7 @@ textarea:focus::placeholder {
   iframe {
     margin-left: 0px;
     max-width: 100%;
-    width: 100%;
+    width: 80%;
     height: 400px;
   }
   .left {
