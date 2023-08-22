@@ -130,4 +130,25 @@
   text-align: center;
 }
 @media (max-width: 428px) {
+  #content h2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #content h3 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  #content h4 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  #footer h2 {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
 }

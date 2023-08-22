@@ -151,8 +151,13 @@ ul li {
 @media only screen and (max-width: 428px) {
   html,
   body {
-    max-width: 414;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .w3-container {
+    width: 100%;
+    box-sizing: border-box;
   }
   .w3-container {
     margin-right: 0px;
@@ -166,7 +171,7 @@ ul li {
   .w3-container .imgg img {
     width: 80px;
     height: 80px;
-    margin-left: 120%;
+    margin-left: 210px;
     margin-top: -50px;
   }
   .w3-container .center {
@@ -207,18 +212,13 @@ ul li {
     font-weight: bold;
     font-family: "Istok Web", sans-serif;
     margin-bottom: 0;
-    margin-top: 6.25rem;
+    margin-top: 6px;
     margin-top: 80px;
     display: flex;
     width: 300px;
   }
   .w3-container .services {
     text-decoration: none;
-    padding-top: 0.75rem; /* 12px / 16px = 0.75rem */
-    padding-bottom: 0.75rem; /* 12px / 16px = 0.75rem */
-    padding-left: 5rem; /* 80px / 16px = 5rem */
-    padding-right: 5rem; /* 80px / 16px = 5rem */
-    border-radius: 1.25rem; /* 20px / 16px = 1.25rem */
 
     background-color: rgba(56, 62, 65, 1);
     position: relative;
@@ -276,9 +276,9 @@ ul li {
     background-color: rgb(255, 255, 255);
   }
   #footer-ul img {
-    width: 1.25rem;
-    height: 1.25rem;
-    max-width: 12.5rem;
+    width: 20px;
+    height: 20px;
+    max-width: 60px;
     display: inline;
   }
   #blue {

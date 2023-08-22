@@ -45,6 +45,7 @@
 #con {
   font-family: "Istok Web", sans-serif;
   font-size: 17px;
+  font-size: 20px;
 }
 
 #column {
@@ -196,6 +197,25 @@
 @media (max-width: 428px) {
   #circle {
     display: none;
+  }
+  #emp {
+    font-family: "Istok Web", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -7px;
+  }
+  #mobcont {
+    font-family: "Istok Web", sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: -25px;
+    padding-top: 0px;
+  }
+  #con {
+    font-family: "Istok Web", sans-serif;
+    font-size: 17px;
+    font-size: 15px;
   }
   #column {
     margin: 0px;
