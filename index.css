@@ -241,7 +241,7 @@ ul li {
     display: flex;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 70px;
+    margin-top: 35%;
   }
   #h1-footer {
     justify-content: center;
@@ -249,27 +249,33 @@ ul li {
     font-size: 15px; /* 14px / 16px = 0.875rem */
     font-weight: bold;
     font-family: "Istok Web", sans-serif;
-    margin-top: 90px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80%;
   }
   #footer-text {
     display: flex;
     background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
+    max-width: 200px;
   }
   #footer-ul {
-    text-align: center;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: flex-end;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 85%;
+    max-width: 100%;
+    margin-top: 30%;
   }
   ul li {
     display: inline;
     margin: 0;
-    margin-left: 80px;
-    margin-top: 10px;
     margin-right: 0px;
+    padding-left: 80px;
+
     background-color: rgb(255, 255, 255);
   }
   #footer-ul img {
