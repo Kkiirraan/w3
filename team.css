@@ -104,47 +104,45 @@
   align-items: center;
   justify-content: center;
   font-family: "Istok Web", sans-serif;
-  font-size: 10px;
-  margin-top: 15px;
-  display: inline;
+  font-size: 15px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 #jenojiji {
   color: aliceblue;
+  font-size: medium;
+  margin-top: 50px;
 }
 #founder {
   color: aliceblue;
-  position: absolute;
-  transform: translate3d(-70px, -24px, 0);
   font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
 }
 #ul-logo {
-  display: inline;
-  position: absolute;
-  margin-top: -25px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-left: -60px;
+  margin-top: 0px;
 }
+
 #li img {
   width: 30px;
-  margin: 20px;
-  position: absolute;
+  margin-left: 20px;
 }
 #facebook {
-  position: absolute;
-  transform: translate3d(-190px, 25px, 0);
   width: 30px;
 }
 #git {
-  position: absolute;
-  transform: translate3d(-115px, 10px, 0);
   width: 28px;
 }
 #insta {
-  position: absolute;
-  transform: translate3d(-40px, -5px, 0);
   width: 28px;
 }
 #linked {
-  position: absolute;
-  transform: translate3d(35px, -20px, 0);
   width: 28px;
 }
 #footer-div {
@@ -294,41 +292,35 @@
   }
   #jenojiji {
     color: aliceblue;
+    margin-top: 70px;
   }
   #founder {
     color: aliceblue;
-    position: absolute;
-    transform: translate3d(-70px, -24px, 0);
     font-size: 14px;
   }
   #ul-logo {
-    display: inline;
-    position: absolute;
-    margin-top: -25px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: -60px;
+    margin-top: 0px;
   }
   #li img {
     width: 30px;
-    margin: 20px;
-    position: absolute;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
   }
   #facebook {
-    position: absolute;
-    transform: translate3d(-190px, 25px, 0);
     width: 30px;
   }
   #git {
-    position: absolute;
-    transform: translate3d(-115px, 10px, 0);
     width: 28px;
   }
   #insta {
-    position: absolute;
-    transform: translate3d(-40px, -5px, 0);
     width: 28px;
   }
   #linked {
-    position: absolute;
-    transform: translate3d(35px, -20px, 0);
     width: 28px;
   }
 }

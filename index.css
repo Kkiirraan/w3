@@ -59,9 +59,10 @@
 }
 #footer {
   background-color: rgb(255, 255, 255);
-  margin-top: 0px;
+  margin-top: 100px;
   max-height: 300px;
   display: flex;
+  flex-direction: column-reverse;
 }
 .w3-container h2 {
   font-size: 15px;
@@ -88,8 +89,6 @@
   font-family: "Istok Web", sans-serif;
   font-weight: bold;
   display: flex;
-  margin-left: 100px;
-  margin-top: 80px;
 }
 .w3-container .services:hover {
   background-color: white;
@@ -105,8 +104,6 @@
   display: flex;
   font-size: 17px;
   font-weight: bold;
-  margin-top: 20px;
-  margin-left: -180px;
 }
 
 #h1-footer {
@@ -145,15 +142,17 @@ ul li {
 }
 #blue {
   background-color: rgb(255, 255, 255);
-  margin-top: 0px;
+  margin-top: 50px;
   display: flex;
+  margin-left: 0px;
 }
 @media only screen and (max-width: 428px) {
   html,
   body {
     overflow-x: hidden;
     padding: 0;
-    margin: 0;
+    margin-bottom: 0;
+    max-width: 100%;
   }
   .w3-container {
     width: 100%;
@@ -204,7 +203,7 @@ ul li {
     margin-top: 0px;
     max-height: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .w3-container h2 {
     font-size: 12px;
@@ -227,7 +226,6 @@ ul li {
     font-weight: bold;
     display: flex;
     margin-left: 10px;
-    margin-top: 80px;
   }
   .w3-container .services:hover {
     background-color: white;
@@ -241,10 +239,9 @@ ul li {
   #explore {
     font-family: "Istok Web", sans-serif;
     display: flex;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
-    margin-top: -70px;
-    margin-left: 0px;
+    margin-top: 70px;
   }
   #h1-footer {
     justify-content: center;
@@ -287,6 +284,7 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
   }
   span {
     display: none;
