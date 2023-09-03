@@ -73,6 +73,7 @@ iframe {
 
 .left {
   margin-right: 10px;
+  line-height: 25px;
 }
 
 .right {
@@ -197,6 +198,7 @@ textarea:focus::placeholder {
 }
 .loc {
   display: flex;
+  flex-direction: column;
 }
 #h1-footer {
   justify-content: center;
@@ -235,6 +237,14 @@ ul li {
   margin-top: 50px;
   display: flex;
   margin-left: 0px;
+}
+#locationimg {
+  max-width: 20px;
+  max-height: 20px;
+}
+#locationimg1 {
+  max-width: 20px;
+  max-height: 20px;
 }
 @media (max-width: 428px) {
   .contacts {
@@ -361,6 +371,7 @@ ul li {
     margin-left: 0px;
     background-color: rgb(255, 255, 255);
     margin-left: 60px;
+    padding-bottom: 20px;
   }
   #footer-ul img {
     width: 20px;
