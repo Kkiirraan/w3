@@ -423,3 +423,107 @@ ul li {
     display: none;
   }
 }
+@media (max-width: 320px) {
+  ul li {
+    display: flex;
+    margin: 0;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+  }
+  #mobapp {
+    background-color: rgba(56, 62, 65, 1);
+    padding: 0px;
+
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #mobapp h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  #mobapp1 {
+    background-color: rgba(56, 62, 65, 1);
+    padding: 0px;
+
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #mobapp1 h2 {
+    font-size: 15px;
+    text-align: left;
+  }
+  #mobapp2 {
+    background-color: rgba(56, 62, 65, 1);
+    padding: 0px;
+
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #mobapp2 h2 {
+    font-size: 15px;
+    text-align: left;
+  }
+  #mobapp3 {
+    background-color: rgba(56, 62, 65, 1);
+    padding: 0px;
+
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #mobapp3 h2 {
+    font-size: 15px;
+    text-align: left;
+  }
+  #mobapp4 {
+    background-color: rgba(56, 62, 65, 1);
+    padding: 0px;
+
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  #mobapp4 h2 {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  #mobapp5 {
+    background-color: rgba(56, 62, 65, 1);
+    padding: 0px;
+
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    margin-left: 0px;
+  }
+}

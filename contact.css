@@ -393,3 +393,12 @@ ul li {
     display: none;
   }
 }
+@media (max-width: 320px) {
+  ul li {
+    display: flex;
+    margin: 0;
+    margin-right: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 35px;
+  }
+}
