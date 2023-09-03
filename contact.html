@@ -133,7 +133,7 @@
                   required
                 ></textarea>
                 <button type="submit" class="submit-icon" id="myButton">
-                  &#10003;
+                  sent mail
                 </button>
               </div>
             </div>
@@ -156,7 +156,8 @@
           </a>
         </li>
         <li>
-          <img src="Facebook.png" alt="Image 1" /><span class="instagram-text"
+          <img src="facebook (1).png" alt="Image 1" /><span
+            class="instagram-text"
             >Facebook</span
           >
         </li>
@@ -165,16 +166,14 @@
             href="https://in.linkedin.com/company/artic-turn"
             style="text-decoration: none"
           >
-            <img
-              src="LinkedIn Circled.png"
-              alt="Image 1"
-              id="linkedin_img"
-            /><span class="instagram-text">Linkedin</span>
+            <img src="LinkedIn.png" alt="Image 1" id="linkedin_img" /><span
+              class="instagram-text"
+              >Linkedin</span
+            >
           </a>
         </li>
       </ul>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function myFunction() {
         var x = document.getElementById("demo");
@@ -185,15 +184,19 @@
         }
       }
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
     <script>
       const button = document.getElementById("myButton");
 
       // Attach a click event listener
       button.addEventListener("click", function (e) {
-        var name = getElementById("name").value;
-        var email = getElementById("email").value;
-        var subject = getElementById("subject").value;
-        var message = getElementById("message").value;
+        e.preventDefault(); // Prevent the form from submitting
+
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var subject = document.getElementById("subject").value;
+        var message = document.getElementById("message").value;
         var body =
           "Name:" +
           name +
@@ -203,7 +206,7 @@
           subject +
           "<br/> message:" +
           message;
-        e.preventDefault();
+
         Email.send({
           Host: "smtp.gmail.com",
           Username: "flask717@gmail.com",
@@ -212,7 +215,21 @@
           From: email,
           Subject: subject,
           Body: body,
-        }).then((message) => alert(message));
+        })
+          .then((response) => {
+            if (response.status === 200) {
+              console.log("Email sent successfully!");
+              alert("Email sent successfully!");
+            } else {
+              alert("Email could not be sent. Please try again later.");
+            }
+          })
+          .catch((error) => {
+            console.error("Email error:", error);
+            alert(
+              "An error occurred while sending the email. Please try again later."
+            );
+          });
       });
     </script>
   </body>
