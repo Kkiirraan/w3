@@ -307,19 +307,17 @@ ul li {
     display: none;
   }
 }
-@media (max-width: 320px) {
-  ul li {
-    display: flex;
-    margin: 0;
-    margin-right: 0px;
-    background-color: rgb(255, 255, 255);
-    margin-left: 80px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .w3-container .imgg img {
+    width: 200px;
+    height: 200px;
+    margin-left: 510px;
+    margin-top: -110px;
   }
-  .w3-container .below {
-    position: absolute;
-    font-family: "Istok Web", sans-serif;
-    font-size: 11px;
-    font-style: italic;
-    transform: translate3d(50px, 30px, 0);
+  #navbar .nav-right {
+    margin-left: 40%;
+  }
+  #hhh {
+    display: none;
   }
 }

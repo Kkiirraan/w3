@@ -393,12 +393,26 @@ ul li {
     display: none;
   }
 }
-@media (max-width: 320px) {
-  ul li {
-    display: flex;
-    margin: 0;
+@media (min-width: 768px) and (max-width: 1024px) {
+  #navbar .nav-right {
+    margin-left: 40%;
+  }
+  #hhh {
+    display: none;
+  }
+  iframe {
+    width: 260%;
+    height: 345px;
+  }
+  .map {
+    margin-top: 2%;
+    width: max-content;
+    height: fit-content;
+    margin-left: 6%;
+  }
+  .left {
     margin-right: 0px;
-    background-color: rgb(255, 255, 255);
-    margin-left: 35px;
+    margin-top: 10px;
+    margin-left: 50px;
   }
 }
