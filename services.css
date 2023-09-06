@@ -22,11 +22,17 @@
   font-weight: bold;
 }
 .w3-container {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  justify-content: center;
+  margin-left: 2rem;
+  flex: 1;
+  flex-wrap: wrap-reverse;
+  flex-shrink: 2;
+  flex-direction: column;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 #content {
   margin: 0;
@@ -53,152 +59,6 @@
   font-size: 20px;
 }
 
-#column {
-  margin: 0px;
-  background-color: rgb(255, 255, 255);
-  margin-left: 50px;
-}
-
-#mobapp {
-  background-color: rgba(56, 62, 65, 1);
-  padding: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: center;
-  position: relative;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  width: 800px;
-  margin: 0px;
-  margin-right: 30px;
-}
-#mobapp h2 {
-  font-size: 15px;
-}
-#triangle {
-  width: 0;
-  height: 0;
-  border-left: 43px solid transparent;
-  border-right: 43px solid transparent;
-  border-bottom: 17px solid rgba(56, 62, 65, 1);
-  position: absolute;
-  transform: rotate(90deg) translate3d(-83.5px, -255px, 0);
-  border-radius: 2px;
-  display: none;
-}
-#mobcont {
-  font-family: "Istok Web", sans-serif;
-  text-align: left;
-  font-size: 17px;
-  font-weight: lighter;
-
-  padding-top: 0px;
-}
-#circle {
-  content: "";
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  border: 1px solid black;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  margin: 0px;
-  position: absolute;
-  transform: translate3d(-720px, 0px, 0px);
-}
-.w3-container #mob {
-  width: 55px;
-  height: 55px;
-  margin: 0px;
-}
-#mobapp1 {
-  background-color: rgba(56, 62, 65, 1);
-  padding: 30px;
-  padding-left: 50px;
-  padding-right: 15px;
-  text-align: center;
-  position: relative;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  width: 800px;
-  margin: 0px;
-  margin-right: 30px;
-}
-#mobapp1 h2 {
-  font-size: 15px;
-}
-#mobapp2 {
-  background-color: rgba(56, 62, 65, 1);
-  padding: 30px;
-  padding-left: 50px;
-  padding-right: 15px;
-  text-align: center;
-  position: relative;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  width: 800px;
-  margin: 0px;
-  margin-right: 30px;
-  margin-top: 10px;
-}
-#mobapp2 h2 {
-  font-size: 15px;
-}
-#mobapp3 {
-  background-color: rgba(56, 62, 65, 1);
-  padding: 30px;
-  padding-left: 50px;
-  text-align: center;
-  position: relative;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  width: 690px;
-  margin: 0px;
-  margin-top: 10px;
-  margin-right: 30px;
-}
-#mobapp3 h2 {
-  font-size: 15px;
-}
-#mobapp4 {
-  background-color: rgba(56, 62, 65, 1);
-  padding: 30px;
-  padding-left: 50px;
-  text-align: center;
-  position: relative;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  width: 770px;
-  margin: 0px;
-  margin-top: 10px;
-  margin-right: 30px;
-}
-#mobapp4 h2 {
-  font-size: 15px;
-}
-#mobapp5 {
-  background-color: rgba(56, 62, 65, 1);
-  padding: 30px;
-  text-align: center;
-  position: relative;
-  color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  width: 320px;
-  margin: 0px;
-  margin-top: 10px;
-  margin-right: 30px;
-  margin-left: -240px;
-}
-#mobapp5 h2 {
-  font-size: 15px;
-}
 #h1-footer {
   justify-content: center;
   text-align: center;
@@ -221,6 +81,93 @@
   background-color: rgb(255, 255, 255);
   width: 100%;
 }
+.col1 {
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  display: flex;
+  margin-top: 40px;
+}
+.col2 {
+  background-color: rgba(56, 62, 65, 1);
+
+  max-width: 400px;
+  width: 400px;
+  max-height: 400px;
+  height: 200px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+#mobcont {
+  font-size: 13px;
+  max-width: 300px;
+  width: 700px;
+  position: absolute;
+  margin-top: 70px;
+  opacity: 0;
+  font-family: "Istok Web", sans-serif;
+}
+#mobcont:hover {
+  opacity: 1;
+}
+.col2:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+  border-color: black;
+  border-radius: 0.125rem; /* 2px / 16px = 0.125rem */
+  border-width: 0.125rem; /* 2px / 16px = 0.125rem */
+  border: 0.125rem solid black; /* 2px / 16px = 0.125rem */
+}
+.col2:hover .circle {
+  display: none;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content h4 {
+  margin-top: 90px;
+  font-size: 20px;
+  font-family: "Istok Web", sans-serif;
+  color: white;
+}
+.circle {
+  content: "";
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  border: 1px solid black;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  transform: translate3d(10px, -50px, 0);
+}
+.w3-container #mob {
+  width: 55px;
+  height: 55px;
+  margin: 18px;
+}
+.title-container h2 {
+  font-family: "Istok Web", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: -17px;
+}
+.title-container h4 {
+  font-family: "Istok Web", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
 ul li {
   display: inline;
   margin-right: 80px;
@@ -238,8 +185,19 @@ ul li {
   margin-left: 0px;
 }
 @media (max-width: 428px) {
-  #circle {
+  span {
     display: none;
+  }
+  .w3-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-left: 0px;
   }
   #emp {
     font-family: "Istok Web", sans-serif;
@@ -247,125 +205,7 @@ ul li {
     font-style: italic;
     margin-top: -7px;
   }
-  #mobcont {
-    font-family: "Istok Web", sans-serif;
-    text-align: left;
-    font-size: 15px;
-    font-weight: lighter;
-    margin-left: -25px;
-    padding-top: 0px;
-  }
-  #con {
-    font-family: "Istok Web", sans-serif;
-    font-size: 17px;
-    font-size: 15px;
-  }
-  #column {
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-  }
 
-  #mobapp {
-    background-color: rgba(56, 62, 65, 1);
-    padding: 0px;
-
-    text-align: center;
-    position: relative;
-    color: white;
-    display: flex;
-    margin-left: -140px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  #mobapp h2 {
-    font-size: 15px;
-    text-align: left;
-  }
-  #mobapp1 {
-    background-color: rgba(56, 62, 65, 1);
-    padding: 0px;
-
-    text-align: center;
-    position: relative;
-    color: white;
-    display: flex;
-    margin-left: -220px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  #mobapp1 h2 {
-    font-size: 15px;
-    text-align: left;
-  }
-  #mobapp2 {
-    background-color: rgba(56, 62, 65, 1);
-    padding: 0px;
-
-    text-align: center;
-    position: relative;
-    color: white;
-    display: flex;
-    margin-left: -230px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  #mobapp2 h2 {
-    font-size: 15px;
-    text-align: left;
-  }
-  #mobapp3 {
-    background-color: rgba(56, 62, 65, 1);
-    padding: 0px;
-
-    text-align: center;
-    position: relative;
-    color: white;
-    display: flex;
-    margin-left: -250px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  #mobapp3 h2 {
-    font-size: 15px;
-    text-align: left;
-  }
-  #mobapp4 {
-    background-color: rgba(56, 62, 65, 1);
-    padding: 0px;
-
-    text-align: center;
-    position: relative;
-    color: white;
-    display: flex;
-    margin-left: -200px;
-    width: 100%;
-    border-radius: 20px;
-  }
-  #mobapp4 h2 {
-    font-size: 15px;
-    text-align: left;
-    margin-left: 0px;
-  }
-  #mobapp5 {
-    background-color: rgba(56, 62, 65, 1);
-    padding: 0px;
-
-    text-align: center;
-    position: relative;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border-radius: 20px;
-  }
-  #mobapp5 h2 {
-    font-size: 15px;
-    text-align: center;
-  }
   #logo {
     width: 100px;
     height: 50px;
@@ -390,18 +230,19 @@ ul li {
   }
   #footer-ul {
     margin-top: 0px;
-    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
     background-color: rgb(255, 255, 255);
     display: flex;
     max-width: 100%;
   }
+  ul {
+    margin: -35px;
+  }
   ul li {
     display: flex;
-    margin: 0;
-    margin-right: 0px;
     margin-left: 0px;
     background-color: rgb(255, 255, 255);
-    margin-left: 60px;
   }
   #footer-ul img {
     width: 20px;
@@ -409,8 +250,93 @@ ul li {
     max-width: 60px;
     display: inline;
   }
+
+  .col1 {
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .col2 {
+    margin-top: 40px;
+    background-color: rgba(56, 62, 65, 1);
+    max-width: 400px;
+    width: 300px;
+    max-height: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  #mobcont {
+    font-size: 13px;
+    max-width: 300px;
+    width: 280px;
+    position: absolute;
+    margin-top: 70px;
+    opacity: 0;
+    margin-left: 10px;
+    font-family: "Istok Web", sans-serif;
+    line-height: 18px;
+  }
+  #mobcont:hover {
+    opacity: 1;
+  }
+  .col2:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+    border-color: black;
+    border-radius: 0.125rem; /* 2px / 16px = 0.125rem */
+    border-width: 0.125rem; /* 2px / 16px = 0.125rem */
+    border: 0.125rem solid black; /* 2px / 16px = 0.125rem */
+  }
+  .col2:hover .circle {
+    display: none;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content h4 {
+    font-size: 20px;
+    font-family: "Istok Web", sans-serif;
+    color: white;
+  }
+  .circle {
+    content: "";
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate3d(10px, -50px, 0);
+  }
+  .w3-container #mob {
+    width: 55px;
+    height: 55px;
+    margin: 18px;
+  }
+  .title-container h2 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -17px;
+  }
+  .title-container h4 {
+    font-family: "Istok Web", sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+  }
   #blue {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,9 +344,6 @@ ul li {
     margin-left: 0px;
     bottom: 0;
     margin-top: 100px;
-  }
-  span {
-    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -430,22 +353,14 @@ ul li {
   #hhh {
     display: none;
   }
-  #mobapp5 {
+  .col2 {
+    margin-top: 40px;
     background-color: rgba(56, 62, 65, 1);
-    padding: 30px;
-    text-align: center;
-    position: relative;
-    color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    width: 320px;
-    margin: 0px;
-    margin-top: 10px;
-    margin-right: 30px;
-    margin-left: 0px;
-  }
-  #mobapp5 h2 {
-    font-size: 15px;
-    text-align: center;
+    max-width: 400px;
+    width: 300px;
+    max-height: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
   }
 }
