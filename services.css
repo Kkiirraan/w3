@@ -197,7 +197,7 @@ ul li {
     flex-shrink: 1;
     flex-direction: column;
     margin-bottom: 40px;
-    margin-left: 0px;
+    margin-left: 20px;
     max-width: 90%;
   }
   #content h1 {
@@ -213,6 +213,9 @@ ul li {
     margin-top: -7px;
     background-color: rgb(255, 255, 255);
     max-width: 90%;
+  }
+  #content {
+    margin-left: 40px;
   }
   #con {
     font-size: 15px;
