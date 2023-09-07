@@ -236,7 +236,8 @@ ul li {
   background-color: rgb(255, 255, 255);
   margin-top: 50px;
   display: flex;
-  margin-left: 0px;
+  margin-left: 20px;
+  flex-direction: column;
 }
 #locationimg {
   max-width: 20px;
@@ -352,26 +353,22 @@ ul li {
   }
   #footer-text {
     display: flex;
-    background-color: rgb(113, 0, 78);
+    background-color: rgb(255, 39, 39);
     align-items: center;
     justify-content: center;
     max-width: 200px;
   }
   #footer-ul {
     margin-top: 0px;
-    align-items: flex-end;
     background-color: rgb(255, 255, 255);
     display: flex;
-    max-width: 100%;
+    margin-left: 0px;
+    max-width: 80%;
+    margin-left: 30px;
   }
   ul li {
     display: flex;
-    margin: 0;
-    margin-right: 0px;
-    margin-left: 0px;
     background-color: rgb(255, 255, 255);
-    margin-left: 60px;
-    padding-bottom: 20px;
   }
   #footer-ul img {
     width: 20px;
@@ -380,14 +377,16 @@ ul li {
     display: inline;
   }
   #blue {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
-    margin-left: 0px;
+    margin-bottom: -30px;
     bottom: 0;
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    max-width: 90%;
   }
   .instagram-text {
     display: none;
