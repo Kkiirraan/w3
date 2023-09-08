@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="contact.css" type="text/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <div class="w3-bar w3-white w3-margin" id="navbar">
@@ -189,7 +190,6 @@
         }
       }
     </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script>
       const button = document.getElementById("myButton");
@@ -211,29 +211,23 @@
           subject +
           "<br/> message:" +
           message;
-
-        Email.send({
-          Host: "smtp.gmail.com",
-          Username: "flask717@gmail.com",
-          Password: "mideleggibagbwcn",
-          To: "flask717@gmail.com",
-          From: email,
-          Subject: subject,
-          Body: body,
-        })
-          .then((response) => {
-            if (response.status === 200) {
-              console.log("Email sent successfully!");
-              alert("Email sent successfully!");
-            } else {
-              alert("Email could not be sent. Please try again later.");
-            }
+        emailjs.init("Rzg5O6eKLnFDbY0A3");
+        var params = {
+          sendername: name,
+          to: "articturn005@gmail.com",
+          subject: subject,
+          replyto: email,
+          message: message,
+        };
+        var service_id = "service_234oj8c";
+        var template_id = "template_2dcveaf";
+        emailjs
+          .send(service_id, template_id, params)
+          .then((res) => {
+            alert("Email send Successfully.");
           })
-          .catch((error) => {
-            console.error("Email error:", error);
-            alert(
-              "An error occurred while sending the email. Please try again later."
-            );
+          .catch((res) => {
+            alert("Error in sending email please try again later.");
           });
       });
     </script>
