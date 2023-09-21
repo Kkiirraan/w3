@@ -87,6 +87,12 @@
   width: 100%;
   height: 300px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+#netflix1 {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
 }
 #div-inside-net {
   background-color: rgb(0, 0, 0);
